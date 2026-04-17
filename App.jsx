@@ -21,7 +21,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
 
   // 2. 구글 시트 웹 앱 URL (GAS 배포 후 받은 URL을 여기에 꼭 넣어주세요!)
-  const GAS_URL = "여기에_구글_시트_웹앱_URL을_입력하세요";
+  const GAS_URL = "https://script.google.com/macros/s/AKfycbw5TWahcLUkpgBdwJfn5lurYnigQVNZN-iD6GvFAL30Vup7Bf4SdU_1nLBwHIVa3B1x/exec";
 
   const fetchData = async () => {
     setLoading(true);
